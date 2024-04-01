@@ -34,7 +34,7 @@ function Home() {
         offset: "0",
       },
       headers: {
-        "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
+        "X-RapidAPI-Key": "d4f1b300a0msh76feaae86a949fbp1933fajsn978768910107",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     };
