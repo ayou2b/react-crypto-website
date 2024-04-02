@@ -16,7 +16,7 @@ function Login(props) {
     try {
       e.preventDefault();
       const response = await axios.post(
-        "react-crypto-website-ebon.vercel.app/login",
+        "https://react-crypto-website-ebon.vercel.app/login",
         {
           email: email,
           password: password,
