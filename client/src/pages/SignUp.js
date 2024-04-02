@@ -30,7 +30,7 @@ function SignUp(props) {
       navigate("/login");
     } catch (err) {
       console.log(err.response.data.errorMessage);
-      setError(err.response.data.errorMessage);
+     setError(err.response?.data?.errorMessage || 'An error occurred');
     }
   };
 
