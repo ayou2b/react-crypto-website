@@ -7,7 +7,13 @@ const sq = require("./Middleware/database");
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://react-crypto-website-ur7w.vercel.app/"],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 const userRoutes = require("./Routes/user");
