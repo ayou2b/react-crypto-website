@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: ["https://react-crypto-website-ur7w.vercel.app/"],
+    origin: ["https://react-crypto-website-ur7w.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
