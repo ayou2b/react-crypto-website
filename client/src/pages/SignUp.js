@@ -17,11 +17,14 @@ function SignUp(props) {
   const signUpHandler = async (e) => {
     try {
       e.preventDefault();
-      const response = await axios.post("http://localhost:9000/signup", {
-        name: name,
-        email: email,
-        password: password,
-      });
+      const response = await axios.post(
+        "react-crypto-website-ebon.vercel.app/signup",
+        {
+          name: name,
+          email: email,
+          password: password,
+        }
+      );
 
       console.log(response.data);
       navigate("/login");

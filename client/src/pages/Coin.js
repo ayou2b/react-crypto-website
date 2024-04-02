@@ -101,7 +101,7 @@ function Coin() {
       }
 
       const response = await axios.post(
-        "http://localhost:9000/add-coin",
+        "react-crypto-website-ebon.vercel.app/add-coin",
         {
           coinId: coinDetails.uuid,
           coinName: coinDetails.name,
