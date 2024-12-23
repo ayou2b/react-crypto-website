@@ -183,7 +183,7 @@ function Coin() {
         },
         headers: {
           "X-RapidAPI-Key":
-            "d4f1b300a0msh76feaae86a949fbp1933fajsn978768910107",
+            "your API key",
           "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
         },
       };
