@@ -38,7 +38,7 @@ function Coins_By_Category() {
         tags: [`${category}`],
       },
       headers: {
-        "X-RapidAPI-Key": "d4f1b300a0msh76feaae86a949fbp1933fajsn978768910107",
+        "X-RapidAPI-Key": "your API key",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     };
